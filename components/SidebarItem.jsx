@@ -1,5 +1,3 @@
-import { FunctionComponent } from "react"
-
 export const SidebarItem = ({icon, text, onClick}) => {
   return(
     <button onClick={onClick} className="hover:text-white cursor-pointer flex items-center space-x-2">
